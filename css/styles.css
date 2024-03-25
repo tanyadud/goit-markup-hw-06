@@ -97,6 +97,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 .team-container {
     background-color: #F4F4FD;
@@ -118,4 +119,6 @@ body {
 }
 .footer-class {
     color:#F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
