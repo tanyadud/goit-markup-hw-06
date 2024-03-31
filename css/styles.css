@@ -50,14 +50,13 @@ body {
 
 .header-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
+    /* padding: 24px 0; */
 }
 
 .header-menu-list {
@@ -67,11 +66,12 @@ body {
 }
 
 .header-menu-item{
+    padding: 24px 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 .header-menu-item:focus,
@@ -84,7 +84,6 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
-
 }
 
 .logo {
@@ -105,6 +104,7 @@ body {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contact-item {
@@ -180,7 +180,7 @@ body {
     line-height: 1,2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .section-second-title {
@@ -228,7 +228,7 @@ body {
 
 .wrapper-list-content {
     display: flex;
-    gap: 32px 24px;
+    gap:48px 24px;
     flex-wrap: wrap;
 }
 
