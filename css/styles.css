@@ -228,7 +228,7 @@ body {
 
 .wrapper-list-content {
     display: flex;
-    gap:48px 24px;
+    gap: 48px 24px;
     flex-wrap: wrap;
 }
 
