@@ -214,7 +214,14 @@ body {
 }
 
 .team-container {
-    background-color: #F4F4FD;
+    background-color:  #F4F4FD;
+}
+
+.wrapper-list-team {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+
 }
 
 .block-team {
@@ -226,7 +233,7 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
-.wrapper-list-content {
+.wrapper-list-portfolio {
     display: flex;
     gap: 48px 24px;
     flex-wrap: wrap;
