@@ -3,21 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
   </head>
   <body>
     <header class="header">
@@ -51,40 +55,38 @@
     <main>
       <section class="section hero">
         <div class="container">
-          <div class="hero-wrap">
-            <h1 class="hero-title">Effective Solutions for Your Business</h1>
-            <button class="order-button" type="button">Order Service</button>
-          </div>
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button class="order-button" type="button">Order Service</button>
         </div>
       </section>
 
       <section class="section">
         <div class="container">
-          <h2>Tasks</h2>
+          <h2 class="visually-hidden">Tasks</h2>
           <ul class="feature-list">
             <li class="features-item">
-              <h3>Strategy</h3>
+              <h3 class="section-third-title">Strategy</h3>
               <p class="section-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
             <li class="features-item">
-              <h3>Punctuality</h3>
+              <h3 class="section-third-title">Punctuality</h3>
               <p class="section-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
             <li class="features-item">
-              <h3>Diligence</h3>
+              <h3 class="section-third-title">Diligence</h3>
               <p class="section-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
             <li class="features-item">
-              <h3>Technologies</h3>
+              <h3 class="section-third-title">Technologies</h3>
               <p class="section-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -96,7 +98,7 @@
 
       <section class="section team-container">
         <div class="container">
-          <h2>Our Team</h2>
+          <h2 class="section-second-title">Our Team</h2>
           <ul class="wrapper-list-content">
             <li class="block-team">
               <img
@@ -105,8 +107,10 @@
                 width="264"
                 height="260"
               />
-              <h3>Mark Guerrero</h3>
-              <p class="section-text">Product Designer</p>
+              <div class="cart-down">
+                <h3 class="section-third-title">Mark Guerrero</h3>
+                <p class="section-text">Product Designer</p>
+              </div>
             </li>
             <li class="block-team">
               <img
@@ -115,8 +119,10 @@
                 width="264"
                 height="260"
               />
-              <h3>Tom Ford</h3>
-              <p class="section-text">Frontend Developer</p>
+              <div class="cart-down">
+                <h3 class="section-third-title">Tom Ford</h3>
+                <p class="section-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="block-team">
               <img
@@ -125,8 +131,10 @@
                 width="264"
                 height="260"
               />
-              <h3>Camila Garcia</h3>
-              <p class="section-text">Marketing</p>
+              <div class="cart-down">
+                <h3 class="section-third-title">Camila Garcia</h3>
+                <p class="section-text">Marketing</p>
+              </div>
             </li>
             <li class="block-team">
               <img
@@ -135,15 +143,17 @@
                 width="264"
                 height="260"
               />
-              <h3>Daniel Wilson</h3>
-              <p class="section-text">UI Designer</p>
+              <div class="cart-down">
+                <h3 class="section-third-title">Daniel Wilson</h3>
+                <p class="section-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
       <section class="section">
         <div class="container">
-          <h2>Our Portfolio</h2>
+          <h2 class="section-second-title">Our Portfolio</h2>
           <ul class="wrapper-list-content">
             <li class="block-portfolio">
               <img
@@ -153,7 +163,7 @@
                 height="300"
               />
               <div class="portfolio-text-content">
-                <h3>Banking App</h3>
+                <h3 class="section-third-title">Banking App</h3>
                 <p class="section-text">App</p>
               </div>
             </li>
@@ -165,7 +175,7 @@
                 height="300"
               />
               <div class="portfolio-text-content">
-                <h3>Cashless Payment</h3>
+                <h3 class="section-third-title">Cashless Payment</h3>
                 <p class="section-text">Marketing</p>
               </div>
             </li>
@@ -177,7 +187,7 @@
                 height="300"
               />
               <div class="portfolio-text-content">
-                <h3>Meditation App</h3>
+                <h3 class="section-third-title">Meditation App</h3>
                 <p class="section-text">App</p>
               </div>
             </li>
@@ -189,7 +199,7 @@
                 height="300"
               />
               <div class="portfolio-text-content">
-                <h3>Taxi Service</h3>
+                <h3 class="section-third-title">Taxi Service</h3>
                 <p class="section-text">Marketing</p>
               </div>
             </li>
@@ -201,7 +211,7 @@
                 height="300"
               />
               <div class="portfolio-text-content">
-                <h3>Screen Illustrations</h3>
+                <h3 class="section-third-title">Screen Illustrations</h3>
                 <p class="section-text">Design</p>
               </div>
             </li>
@@ -213,7 +223,7 @@
                 height="300"
               />
               <div class="portfolio-text-content">
-                <h3>Online Courses</h3>
+                <h3 class="section-third-title">Online Courses</h3>
                 <p class="section-text">Marketing</p>
               </div>
             </li>
