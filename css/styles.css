@@ -1,6 +1,6 @@
 a {
     text-decoration: none;
-    display: inline-block;
+    display: block;
 }
 
 h1,  
@@ -200,7 +200,7 @@ body {
 }
 
 .features-item {
-    flex-basis: 264px;
+    width:calc((100% - 24px * 3) / 4);
 }
 
 .section-text {
@@ -257,6 +257,7 @@ body {
 .footer .logo {
     color: #4d5ae5;
     margin-bottom: 16px;
+    margin-right: 0;
   }
 
 .accent-whitelogo {
