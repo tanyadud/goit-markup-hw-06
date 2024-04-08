@@ -45,7 +45,10 @@ body {
 }
 
 .header {
-    border-bottom: 1px solid #e7e9fc; 
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 
 .header-container {
@@ -93,6 +96,7 @@ body {
     left: 0;
     content: "";
     border-radius: 2px;
+    background-color: #404bbf;
 }
 
 .header-contacts-list {
@@ -140,7 +144,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/people-office.jpg);
     max-width: 1440px;
     padding: 188px 0;
     display: flex;
@@ -353,6 +357,7 @@ body {
 
 .footer-container {
     display: flex;
+    align-items: baseline
 }
 
 .footer-left {
